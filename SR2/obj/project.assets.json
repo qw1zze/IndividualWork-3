@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "EBookLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/EBookLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EBookLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EBookLib/1.0.0": {
+      "type": "project",
+      "path": "../EBookLib/EBookLib.csproj",
+      "msbuildProject": "../EBookLib/EBookLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "EBookLib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ridim\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\SR2\\SR2\\IndividualWork-3.csproj",
+      "projectName": "IndividualWork-3",
+      "projectPath": "D:\\SR2\\SR2\\IndividualWork-3.csproj",
+      "packagesPath": "C:\\Users\\ridim\\.nuget\\packages\\",
+      "outputPath": "D:\\SR2\\SR2\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ridim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\SR2\\EBookLib\\EBookLib.csproj": {
+              "projectPath": "D:\\SR2\\EBookLib\\EBookLib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

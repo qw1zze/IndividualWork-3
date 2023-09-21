@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndividualWork-3", "SR2\IndividualWork-3.csproj", "{B8BC9BC4-8D6E-4E41-9C1A-B566D59EBFFA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EBookLib", "EBookLib\EBookLib.csproj", "{911F8E12-0112-4B52-90F7-5D49EEF3A9D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8BC9BC4-8D6E-4E41-9C1A-B566D59EBFFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8BC9BC4-8D6E-4E41-9C1A-B566D59EBFFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8BC9BC4-8D6E-4E41-9C1A-B566D59EBFFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8BC9BC4-8D6E-4E41-9C1A-B566D59EBFFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{911F8E12-0112-4B52-90F7-5D49EEF3A9D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{911F8E12-0112-4B52-90F7-5D49EEF3A9D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{911F8E12-0112-4B52-90F7-5D49EEF3A9D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{911F8E12-0112-4B52-90F7-5D49EEF3A9D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
